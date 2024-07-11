@@ -1,0 +1,12 @@
+{
+    "annee": 2021,
+    "kilometrage": 37000,
+    "places": 5,
+    "portes": 5,
+    "marque": "peugeot",
+    "modele": "208",
+    "couleur": "blanc",
+    "boite_de_vitesse": "automatique",
+    "puissance_fiscale": 5,
+    "carburant": "essence"
+}

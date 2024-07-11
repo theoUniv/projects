@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Collisions</title>
+        <style>
+            /*body {
+                margin: 0px;
+                padding: 0px;
+            }
+            canvas {
+                border: 1px solid black;
+            }
+            */
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: black;
+            }
+            canvas {
+                display: block;
+                width: 100vw;
+                height: 100vh;
+                object-fit: contain;
+                image-rendering: crisp-edges;
+                image-rendering: pixelated;
+            }
+        </style>
+        <script src="./js/SAT.js"></script>
+    </head>
+    <body>
+        <audio
+            id="mouse_over_song"
+            src="./assets/menu/son/mouse_over.wav"
+        ></audio>
+        <canvas id="Game"></canvas>
+        <script type="module" src="./js/main.js"></script>
+        <script>
+            // Fonction pour définir la taille du canvas en fonction de la fenêtre
+            function definirTailleCanvas() {
+                // Récupérer la référence de l'élément canvas
+                var canvas = document.getElementById("Game");
+
+                // Définir la largeur et la hauteur du canvas en fonction de la fenêtre
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+
+            // Appeler la fonction lors du chargement de la page et lors du redimensionnement de la fenêtre
+            window.onload = definirTailleCanvas;
+            window.onresize = definirTailleCanvas;
+        </script>
+    </body>
+</html>

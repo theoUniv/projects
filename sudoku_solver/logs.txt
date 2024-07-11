@@ -1,0 +1,2 @@
+Pointeurs row et column actualisée
+ 

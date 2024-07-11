@@ -1,0 +1,11 @@
+Nous avons décidés que l'animal en priorité: mange, se reproduit, se déplace (par ordre de priorité).
+Le Plateau est axé avec des nombres.
+Il y a une limite de 49 entités au total au départ.
+Le mouton ne se déplace pas lorsqu'il mange.
+Un Loup peux sauter une case pour manger.
+Le loup ne peux manger que entre 4 et 10 jours.
+Le mouton ne peux manger que entre 2 et 6 jours.
+--> Afin de faire durer l'écosystème.
+Les sels minéraux ne sont pas affichés, on privilegie les animaux.
+L'univers s'arrete lorsqu'il n'y a plus aucun mouton ou plus aucun loup, ou les deux.
+Les femelles sont roses, les males bleus.
