@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">projet_S1_AI_LM</string>
+    <string name="title_activity_add_animal">AddAnimalActivity</string>
+    <string name="title_activity_animal_detail">AnimalDetailActivity</string>
+    <string name="title_activity_add_activity">AddActivityActivity</string>
+    <string name="title_activity_edit_activity">EditActivityActivity</string>
+    <string name="title_activity_edit_animal">EditAnimalActivity</string>
+    <string name="title_parameters_edit_activityl">EditDefaultActivityActivity</string>
+
+</resources>
